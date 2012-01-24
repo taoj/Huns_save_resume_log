@@ -1,5 +1,7 @@
 This subject of Huns add additional functions (info of time staple iostat and vmstat )
-1. make sure execute by root.
+1. make sure execute it by root.
 2. create a folder var/log/Huns
-3. because this project use "execl" to implement a child process, since exec need a full path of file which gonna to be invoked,
-   so please place the file in the appropiatlly. In this case, 
+3. because this project use "execl" to implement a child process, since exec need a full path of file which gonna to be 
+   invoked,so please place the file in the appropiatlly. In this case, iostat and vmstat are suppose to be at 
+   /home/vpathak/Documents/program/  .
+4. compile the save_resume_log and run the generated file.
