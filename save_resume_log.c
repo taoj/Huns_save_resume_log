@@ -10,19 +10,6 @@ double timeofsave,timeofresume;
 
 int main()
 {
-/*	char vmstat_add[30] = "/var/log/Huns/vmstat.log";
-	char iostat_add[30] = "/var/log/Huns/iostat.log";
-	
-	FILE* vm_log = fopen(vmstat_add,"a+");
-	FILE* io_log = fopen(iostat_add,"a+");
-	if(vm_log == NULL || io_log == NULL)
-	{
-		printf("log open error \n");
-		exit;
-	}
-
-*/
-
 
 	virConnectPtr conn;
 	//number of active domain
