@@ -1,4 +1,5 @@
 This subject of Huns add additional functions (info of time staple iostat and vmstat )
 1. make sure execute by root.
 2. create a folder var/log/Huns
-3. because this project use execl to implement a child process
+3. because this project use "execl" to implement a child process, since exec need a full path of file which gonna to be invoked,
+   so please place the file in the appropiatlly. In this case, 
